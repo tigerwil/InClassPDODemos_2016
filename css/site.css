@@ -1,0 +1,31 @@
+/* 
+    Created on : Nov 28, 2016, 10:59:32 AM
+    Author     : mwilliams
+    Description:  Site.css 
+                  formatting for our tables
+*/
+
+table{
+    border-collapse: collapse;
+    margin:10px;
+    width: 70%;
+    border: 1px solid #3e4b5c;
+}
+
+table tr th, table tr td{
+    padding:5px 10px;
+}
+
+table th{
+    background-color: #3e4b5c;
+    color:#fff;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #e3eaf2;
+}
+
+tbody tr:nth-child(even){
+    background-color: #fff;
+}
